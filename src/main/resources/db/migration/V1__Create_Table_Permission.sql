@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS tb_perfil
+(
+	id_perfil INT PRIMARY KEY AUTO_INCREMENT,
+    tx_nome VARCHAR(30) NOT NULL
+)

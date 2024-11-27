@@ -1,0 +1,24 @@
+#spring.mail:
+#  host: ghfelipe.work@gmail.com
+#  port: 587
+securirty:
+  jwt:
+    token:
+      secret-key: 53ccr37
+      expire-length: 3600000
+spring:
+  application.name: cadastro
+  datasource:
+    url: "jdbc:mysql://localhost:3306/cadastro"
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    username: "root"
+    password: "Gug@2004"
+  jpa:
+    open-in-view: false
+    hibernate:
+#      default_schema: cadastro
+      ddl-auto: none
+#         properties:
+#         hibernate:
+#       dialect: org.hibernate.dialect.MySQLDialect
+      show-sql: false
